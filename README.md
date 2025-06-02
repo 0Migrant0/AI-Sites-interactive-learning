@@ -8,7 +8,7 @@
 > 📚 A versatile learning platform with interactive flashcards and quizzes. Built with pure HTML, CSS, and JavaScript. **Customize the content for any subject** - from programming to languages, science to history!
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Interactive+Learning+Platform" alt="App Screenshot" width="800"/>
+  <img src="https://raw.githubusercontent.com/0Migrant0/AI-Sites-interactive-learning/main/screenshot.png" alt="Interactive Learning Platform" width="800"/>
 </p>
 
 ## ✨ Features
@@ -32,7 +32,7 @@
 
 1. Clone the repository
    ```powershell
-   git clone https://github.com/yourusername/interactive-learning-platform.git
+   git clone https://github.com/0Migrant0/AI-Sites-interactive-learning.git
    ```
 
 2. Open in browser
