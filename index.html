@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Interactive Learning Platform</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Add SheetJS library -->
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>    <div class="container">
+      <button id="sidebar-toggle" class="sidebar-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <aside class="sidebar">        <h2>Modules</h2>
+        <ul id="week-list"></ul>
+        <h2>Assessments</h2>
+        <ul id="test-list">
+          <li><button class="test-btn" data-test="all">Full Test</button></li>
+        </ul>
+      </aside>
+
+      <main class="content">        <section id="week-header">
+          <h2 id="week-title"></h2>
+          <p id="week-overview"></p>
+        </section>
+
+        <section id="lesson-cards"></section>
+
+        <section id="week-test" class="hidden">
+          <h3>Assessment for this Module</h3>
+          <div id="week-test-content"></div>
+          <button id="check-week-test">Check Answers</button>
+          <button id="back-to-lessons">Back to Content</button>
+        </section>        <section id="full-test" class="hidden">
+          <h3>Comprehensive Assessment</h3>
+          <div id="full-test-content"></div>
+          <button id="check-full-test">Check Answers</button>
+          <button id="back-to-week-tests">Back to Modules</button>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
