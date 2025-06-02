@@ -8,7 +8,7 @@
 > 📚 A versatile learning platform with interactive flashcards and quizzes. Built with pure HTML, CSS, and JavaScript. **Customize the content for any subject** - from programming to languages, science to history!
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/0Migrant0/AI-Sites-interactive-learning/main/screenshot.png" alt="Interactive Learning Platform" width="800"/>
+  <img src="https://placehold.co/800x400/1e1e2f/white?text=Interactive+Learning+Platform" alt="Interactive Learning Platform" width="800"/>
 </p>
 
 ## ✨ Features
