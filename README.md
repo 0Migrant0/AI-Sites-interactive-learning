@@ -124,46 +124,6 @@ interactive-learning/
 └── script.js       # ES6+ JavaScript
 ```
 
-## Curriculum Structure
-
-The course is organized into six comprehensive weeks:
-
-### Week 1: JavaScript Fundamentals and ES6+
-- Variable declarations and scoping
-- Modern JavaScript features
-- Promises and async programming
-- Template literals and string manipulation
-
-### Week 2: React Fundamentals
-- JSX and components
-- Props and state management
-- Component lifecycle methods
-- Event handling in React
-
-### Week 3: State Management and Hooks
-- useState and useEffect
-- Context API usage
-- Custom hooks development
-- State management patterns
-
-### Week 4: Component Lifecycle and Optimization
-- Lifecycle methods deep dive
-- Performance optimization techniques
-- Virtual DOM understanding
-- Code splitting strategies
-
-### Week 5: Testing and Tooling
-- Jest testing framework
-- React Testing Library
-- Debugging techniques
-- Development tools and linting
-
-### Week 6: Advanced React Ecosystem
-- React Router implementation
-- Redux/Context state management
-- Server-side rendering (Next.js)
-- GraphQL and REST API integration
-
 ## Development
 
 ### Project Setup
